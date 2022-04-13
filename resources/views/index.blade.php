@@ -25,7 +25,7 @@
 At RACE Africa we enable young passionate innovators, social entrepreneurs and creatives in Africa access quality learning, networking, funding, tech and legal support they need to successfully implement their solutions to solve social problems
 </p>
 
-<a href="about.html" class="link-btn">Learn More</a>
+<a href="{{url('/about')}}" class="link-btn">Learn More</a>
 </div>
 </div>
 <div class="col-lg-7 col-md-12">
