@@ -93,7 +93,7 @@ At RACE Africa we enable young passionate innovators, social entrepreneurs and c
 <div class="support-content">
 <h2>OUR TEAM</h2>
 <p>The RACE team is highly motivated and Enthusiastic about its vision. We are young, vibrant and daring, We are young, vibrant & daring; our minds are fixated on what we desire to achieve.</p>
-<a href="about.html" class="btn btn-primary">Explore Us</a>
+<a href="/about"class="btn btn-primary">Explore Us</a>
 </div>
 </div>
 </div>
