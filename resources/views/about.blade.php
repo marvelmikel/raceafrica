@@ -189,7 +189,7 @@ The RACE team is highly motivated and  enthusiastic about its vision. We are you
 <img src="assets/img/m.jpg" alt="image">
 <ul class="social">
 <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://www.linkedin.com/in/ejeh-micheal-marvelous-6735711b6/  "><i class="fab fa-linkedin-in"></i></a></li>
 </ul>
 </div>
 <div class="member-content">
