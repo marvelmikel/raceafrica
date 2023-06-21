@@ -35,8 +35,11 @@
                 <p class="description">
                     We believe these leaders hold the answers to unlocking a bright future for our continent and it is vital that we enlighten and empower them.
                 </p>
-                <div class="button-container">
-                    <span class="button mt-4">Join Us</span>
+               <div class="button-container">
+               <a href="https://cutt.ly/Y6ITSl0" style="text-decoration: none; color: white;">
+    <span class="button mt-4">Join Us</span>
+</a>
+    
                 </div>
             </div>
             <img src="{{asset('a/images/1.png')}}" class="position-absolute imageOne w-75" alt="" />
@@ -389,7 +392,7 @@
                 <img
                   src="{{asset('a/images/person1.png"
                   class="card-img-top"
-                  alt="photo"
+                  alt="photo" 
                 />
               </div>
             </div>
