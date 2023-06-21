@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>IFFA-SUMMIT | WEBSITE-LANDING-PAGE</title>
+    <title>IFFA-SUMMIT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('a/css/main.css')}}"/>
 
@@ -129,7 +129,7 @@
     >
       <img src="{{asset('a/images/3.png')}}" class="position-absolute image__large" alt="" />
       <img src="{{asset('a/images/4.png')}}" class="position-absolute image__medium" alt="" />
-      <img src="{{asset('a/images/5.pn')}}g" class="position-absolute image__small" alt="" />
+      <img src="{{asset('a/images/5.png')}}" class="position-absolute image__small" alt="" />
       <h1 class="heading text-center">
         INNOVATION FOR FUTURE AFRICA(IFFA). <span>SUMMIT 2023</span>
       </h1>
@@ -377,9 +377,9 @@
       id="people"
       class="reason container mb-5 d-flex flex-column position-relative"
     >
-      <img src="{{asset('a/images/3.png" class="position-absolute image__large" alt="" />
-      <img src="{{asset('a/images/4.png" class="position-absolute image__medium" alt="" />
-      <img src="{{asset('a/images/5.png" class="position-absolute image__small" alt="" />
+      <img src="{{asset('a/images/3.png')}}" class="position-absolute image__large" alt="" />
+      <img src="{{asset('a/images/4.png')}}" class="position-absolute image__medium" alt="" />
+      <img src="{{asset('a/images/5.png')}}" class="position-absolute image__small" alt="" />
       <h1 class="d-flex align-items-center gap-5 px-3">
         <span></span>Guest speakers at IFFA summit 2023
       </h1>
@@ -390,7 +390,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person1.png"
+                  src="{{asset('a/images/person1.png')}}"
                   class="card-img-top"
                   alt="photo" 
                 />
@@ -408,7 +408,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person2.png"
+                  src="{{asset('a/images/person2.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -426,7 +426,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person3.png"
+                  src="{{asset('a/images/person3.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -444,7 +444,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person4.png"
+                  src="{{asset('a/images/person4.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -462,7 +462,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person5.png"
+                  src="{{asset('a/images/person5.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -480,7 +480,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person6.png"
+                  src="{{asset('a/images/person6.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -498,7 +498,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person7.png"
+                  src="{{asset('a/images/person7.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -516,7 +516,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person8.png"
+                  src="{{asset('a/images/person8.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -534,7 +534,7 @@
             <div class="card__header">
               <div class="image-background">
                 <img
-                  src="{{asset('a/images/person6.png"
+                  src="{{asset('a/images/person6.png')}}"
                   class="card-img-top"
                   alt="photo"
                 />
@@ -563,7 +563,7 @@
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card border-0">
             <div class="card-body">
-              <img src="{{asset('a/images/colon.png" alt="" />
+              <img src="{{asset('a/images/colon.png')}}" alt="" />
 
               <p class="card-text mt-5 fs-3">
                 I was privileged to be a part of IFFA summit as a FACI last
@@ -571,7 +571,7 @@
                 theme ..... <a href="#">See more</a>
                             </p>
                             <div class="profile d-flex align-items-center gap-5 mt-5">
-                                <img src="{{asset('a/images/profile.png" alt="" />
+                                <img src="{{asset('a/images/profile.pn')}}g" alt="" />
                                 <div class="content text-light">
                                     <h4>Mr Lucky owoicho</h4>
                                     <p>International Development Practioner</p>
@@ -583,13 +583,13 @@
                 <div class="col-sm-6 mb-3 mb-sm-0">
                     <div class="card border-0">
                         <div class="card-body">
-                            <img src="{{asset('a/images/colon.png" alt="" />
+                            <img src="{{asset('a/images/colon.png')}}" alt="" />
 
                             <p class="card-text mt-5 fs-3">
                                 I was privileged to be a part of IFFA summit as a FACI last year. It was a wonderful, learning experience for me with the theme ..... <a href="#">See more</a>
                             </p>
                             <div class="profile d-flex align-items-center gap-5 mt-5">
-                                <img src="{{asset('a/images/profile.png" alt="" />
+                                <img src="{{asset('a/images/profile.png')}}" alt="" />
                                 <div class="content text-light">
                                     <h4>Mr Lucky owoicho</h4>
                                     <p>International Development Practioner</p>
@@ -599,8 +599,8 @@
                     </div>
                 </div>
             </div>
-            <img src="{{asset('a/images/6.png" class="position-absolute image__large" alt="" />
-            <img src="{{asset('a/images/7.png" class="position-absolute image__small" alt="" />
+            <img src="{{asset('a/images/6.png')}}" class="position-absolute image__large" alt="" />
+            <img src="{{asset('a/images/7.png')}}" class="position-absolute image__small" alt="" />
     </section>
 
     <!-- Contact -->
@@ -664,7 +664,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js "></script>
-    <script src="js/script.js"></script>
+    <script src="{{asset('a/js/script.js')}}"></script>
 </body>
 
 </html>
