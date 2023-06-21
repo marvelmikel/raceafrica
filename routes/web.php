@@ -33,6 +33,10 @@ Route::get('/ralf', function () {
     return view('ralf');
 });
 
+Route::get('/iffa', function () {
+    return view('iffa');
+});
+
 
 Route::get('/memberships/register', [ MembershipController::class, 'create']  )->name('memberships.create');
 Route::get('/memberships/reg-confirm', [ MembershipController::class, 'regConfirm']  )->name('memberships.reg_confirm');

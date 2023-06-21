@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700&display=swap");
+:root {
+    --background-color: #171624;
+    --background-color-light: rgb(38, 37, 53);
+    --primary-color: #207db3;
+    --primary-light: #e5fff7;
+    --primary-medium: #0e6ca5;
+    --text-white: #ffffff;
+    --text-rgba: rgba(255, 255, 255, 0.9);
+    --text-rgba-light: rgba(255, 255, 255, 0.7);
+    --text-rgba-dark: rgba(255, 255, 255, 0.3);
+    --text-rgba-medium: rgba(255, 255, 255, 0.8);
+    --arrow-color: #1290cb;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px  10px/16px = 62.5% */
+    font-family: "Manrope" sans-serif;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-white);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.button-container {
+    padding-bottom: 20rem;
+    @media (max-width: 992px) {
+        padding-bottom: 5rem;
+    }
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 10px;
+    width: 200px;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    @media (max-width: 768px) {
+        padding: 4px 2px;
+        width: 130px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+.h-text {
+    position: relative;
+    .imageOne {
+        bottom: 0;
+        left: 0;
+        width: 65% !important;
+        object-fit: contain;
+    }
+    .imageTwo {
+        bottom: 0;
+        left: 2%;
+        object-fit: contain;
+    }
+}
+
+.reason {
+    .circle__light {
+        width: 30%;
+        height: 30%;
+        background-color: var(--primary-color);
+        bottom: 0;
+        left: -20%;
+        border-radius: 50%;
+        filter: blur(150px);
+    }
+}
+
+#issues,
+#contact {
+    .circle {
+        width: 20%;
+        height: 20%;
+        background-color: var(--primary-color);
+        bottom: 0;
+        right: -10%;
+        border-radius: 50%;
+        filter: blur(110px);
+        @media screen and (max-width: 768px) {
+            right: 0;
+            filter: blur(60px);
+        }
+    }
+}
+
+.innovation {
+    .image__large {
+        top: 0;
+        right: -10.9%;
+        width: 20%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            right: 0;
+        }
+    }
+    .image__medium {
+        top: 3%;
+        right: -11%;
+        width: 15%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            right: 0;
+        }
+    }
+    .image__small {
+        top: 4.5%;
+        right: -10%;
+        width: 8%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            right: 0;
+        }
+    }
+    .image__1 {
+        bottom: 50%;
+        left: 0;
+        width: 20%;
+    }
+    .image__2 {
+        bottom: 50%;
+        left: 1%;
+        width: 15%;
+    }
+    .image__3 {
+        bottom: 50%;
+        left: 4.2%;
+        width: 8%;
+    }
+}
+
+#people {
+    .image__large {
+        top: 50%;
+        right: -10.9%;
+        width: 20%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    .image__medium {
+        top: 53%;
+        right: -11%;
+        width: 15%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    .image__small {
+        top: 54%;
+        right: -10%;
+        width: 8%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+}
+
+#testmonial {
+    .image__large {
+        bottom: 0;
+        left: -10%;
+        width: 20%;
+    }
+    .image__small {
+        bottom: 2%;
+        left: -8%;
+        width: 15%;
+    }
+}

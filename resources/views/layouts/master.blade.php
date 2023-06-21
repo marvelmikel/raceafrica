@@ -76,6 +76,8 @@
 <li class="nav-item"><a href="{{url('/about')}}" class="nav-link">About Us</a></li>
 <li class="nav-item"><a href="{{url('/ralf')}}" class="nav-link">RALF</a>
 </li>
+<li class="nav-item"><a href="{{url('/iffa')}}" class="nav-link">IFFA Submmit</a>
+</li>
 <li class="nav-item"><a href="{{('https://racelearning.net/') }}" class="nav-link">Race Learning</a>
 </li>
 <!--<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
