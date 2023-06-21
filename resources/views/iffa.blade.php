@@ -36,7 +36,7 @@
                     We believe these leaders hold the answers to unlocking a bright future for our continent and it is vital that we enlighten and empower them.
                 </p>
                <div class="button-container">
-               <a href="https://cutt.ly/Y6ITSl0" style="text-decoration: none; color: white;">
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvrBZ-VrQKDGOF4oasXUCYTVQ23vaPqCMR5ejzJHHnN4dANA/viewform" style="text-decoration: none; color: white;">
     <span class="button mt-4">Join Us</span>
 </a>
     
@@ -138,9 +138,11 @@
         enterpreneurs, and innovators at IFFA summit 2023. Explore opportunities
         for business growth.
       </p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvrBZ-VrQKDGOF4oasXUCYTVQ23vaPqCMR5ejzJHHnN4dANA/viewform  " style="text-decoration: none; color: white;">
       <div class="button-container mt-5">
         <span class="button mt-4">Join Us</span>
       </div>
+</a>
 
       <img src="{{asset('a/images/3.png')}}" class="position-absolute image__1" alt="" />
       <img src="{{asset('a/images/4.png')}}" class="position-absolute image__2" alt="" />
