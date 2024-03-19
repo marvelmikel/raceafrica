@@ -39,3 +39,26 @@ sliderContainers.forEach((sliderContainer) => {
   // Initialize the slide for the current slider
   updateSlide();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const seeMoreButtons = document.querySelectorAll('.see-more-button');
+  const seeLessButtons = document.querySelectorAll('.see-less-button');
+
+  seeMoreButtons.forEach((seeMoreButton, index) => {
+    const moreText = seeMoreButton.parentElement.querySelector('.more-text');
+
+    seeMoreButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      moreText.style.display = 'block';
+      seeMoreButton.style.display = 'none';
+      seeLessButtons[index].style.display = 'inline-block'; // Show the corresponding "See less" button
+    });
+
+    seeLessButtons[index].addEventListener('click', function(event) {
+      event.preventDefault();
+      moreText.style.display = 'none';
+      seeMoreButton.style.display = 'inline-block'; // Show the corresponding "See more" button
+      seeLessButtons[index].style.display = 'none'; // Hide the corresponding "See less" button again
+    });
+  });
+});
