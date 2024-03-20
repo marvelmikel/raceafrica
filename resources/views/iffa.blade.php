@@ -61,7 +61,7 @@
           </p>
           <div class="button-container">
             <a
-              href="https://forms.gle/btPMJ9K3Dnx8xVRL6"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform"
               class="button mt-4 text-decoration-none list-none text-white cursor-pointer"
               >Register Today
             </a>
