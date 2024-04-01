@@ -62,11 +62,7 @@
            
         </div>
            <div class="button-container mt-5">
-        <a
-          href="#reg"
-          class="button mt-4 text-white text-decoration-none"
-          >Join Us</a
-        >
+     <a href="#reg" id="joinUsBtn" class="button mt-4 text-white text-decoration-none">Join Us</a>
       </div>
         <img
           src="{{asset('a/images/1.png')}}"
@@ -884,6 +880,45 @@
         © COPYRIGHT -IFFA SUMMIT 2024
       </p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    var joinUsBtn = document.getElementById('joinUsBtn');
+    var regSection = document.getElementById('reg');
+
+    joinUsBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        var sectionOffset = regSection.offsetTop;
+        scrollToSmoothly(sectionOffset, 1000);
+    });
+
+    function scrollToSmoothly(to, duration) {
+        var element = document.scrollingElement || document.documentElement,
+            start = element.scrollTop,
+            change = to - start,
+            currentTime = 0,
+            increment = 20;
+
+        var animateScroll = function () {
+            currentTime += increment;
+            var val = Math.easeInOutQuad(currentTime, start, change, duration);
+            element.scrollTop = val;
+            if (currentTime < duration) {
+                setTimeout(animateScroll, increment);
+            }
+        };
+        animateScroll();
+    }
+
+    // easing functions for smooth scrolling
+    Math.easeInOutQuad = function (t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    };
+});
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js "></script>
