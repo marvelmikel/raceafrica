@@ -61,9 +61,9 @@
           </p>
              <div class="button-container mt-5">
         <a
-          href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform' }}"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform"
           class="button mt-4 text-white text-decoration-none"
-          >Register Now</a
+          >Register</a
         >
       </div>
           
