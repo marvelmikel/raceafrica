@@ -885,12 +885,23 @@
     var joinUsBtn = document.getElementById('joinUsBtn');
     var regSection = document.getElementById('reg');
 
+    // Function to handle smooth scrolling
+    function scrollToSection() {
+        regSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Add click event listener
     joinUsBtn.addEventListener('click', function (e) {
         e.preventDefault();
-        regSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        scrollToSection();
+    });
+
+    // Add touch event listener
+    joinUsBtn.addEventListener('touchstart', function (e) {
+        e.preventDefault();
+        scrollToSection();
     });
 });
-
 
     </script>
 
