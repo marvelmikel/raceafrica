@@ -59,15 +59,15 @@
             leaders access opportunities for growth, learning and networking at
             IFFA Summit.
           </p>
-            <div class="button-container mt-5">
+           
+        </div>
+           <div class="button-container mt-5">
         <a
           href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform' }}"
           class="button mt-4 text-white text-decoration-none"
           >Join Us</a
         >
       </div>
-          
-        </div>
         <img
           src="{{asset('a/images/1.png')}}"
           class="position-absolute imageOne w-75"
