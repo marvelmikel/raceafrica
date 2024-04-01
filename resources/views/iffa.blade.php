@@ -59,20 +59,13 @@
             leaders access opportunities for growth, learning and networking at
             IFFA Summit.
           </p>
-             <button onclick="redirectToRegistration()" class="button-container mt-5">Register Now
-<!--         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform"
+            <div class="button-container mt-5">
+        <a
+          href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform' }}"
           class="button mt-4 text-white text-decoration-none"
-          >Register</a
-        > -->
-      </button>
-            <script>
-        function redirectToRegistration() {
-            // Replace the URL with your registration URL
-            var registrationUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform";
-            window.location.href = registrationUrl;
-        }
-    </script>
+          >Join Us</a
+        >
+      </div>
           
         </div>
         <img
