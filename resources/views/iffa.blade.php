@@ -63,7 +63,7 @@
         </div>
            <div class="button-container mt-5">
         <a
-          href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform' }}"
+          href="#reg"
           class="button mt-4 text-white text-decoration-none"
           >Join Us</a
         >
@@ -179,7 +179,7 @@
       <div class="circle__light position-absolute"></div>
     </section>
 
-    <section
+    <section id="reg"
       class="innovation container d-flex align-items-center justify-content-center flex-column position-relative"
     >
       <img src="{{asset('a/images/3.png')}}" class="position-absolute image__large" alt="" />
@@ -197,7 +197,7 @@
         <a
           href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSdvvEj9skrNXjwB-r4If5QPnOp6GUEulrEihJmO7A7_kNlnQA/viewform' }}"
           class="button mt-4 text-white text-decoration-none"
-          >Join Us</a
+          >Register Now</a
         >
       </div>
 
